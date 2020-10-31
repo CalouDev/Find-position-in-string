@@ -9,7 +9,7 @@ def findPosition(alphabet, letter):
               print(result)
               break
   
-findPosition(letters, choice_user)
+find_position(letters, choice_user)
 
 """ 
 But You can use the fonction 'find' ex: >>>a = 'character'
