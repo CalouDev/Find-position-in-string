@@ -11,7 +11,7 @@ letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 choice_user = input("Letter : ")
 
-def findPosition(alphabet, letter):
+def find_position(alphabet, letter):
       for i in range(0, len(alphabet)): 
             if alphabet[i] == letter:
               result = i + 1
