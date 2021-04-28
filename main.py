@@ -15,10 +15,9 @@ def find_position(alphabet, letter):
       for i in range(0, len(alphabet)): 
             if alphabet[i] == letter:
               result = i + 1
-              print(result)
-              break
+              return result
   
-find_position(letters, choice_user) # Run the function
+print(find_position(letters, choice_user)) # Run the function
 
 """ 
 But You can use the fonction 'find' ex: >>>a = 'character'
