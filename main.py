@@ -12,7 +12,7 @@ letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 choice_user = input("Letter : ")
 
 def find_position(alphabet, letter):
-      for i in range(0, len(alphabet)): 
+      for i in range(len(alphabet)): 
             if alphabet[i] == letter:
               result = i + 1
               return result
